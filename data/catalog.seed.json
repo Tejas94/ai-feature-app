@@ -1,0 +1,737 @@
+[
+  {
+    "visibleText": {
+      "lines": [
+        "KELVARO",
+        "Insulated Travel Mug",
+        "TM-350",
+        "350 ml"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2004350135014"
+        }
+      ]
+    },
+    "title": "Kelvaro TM-350 Insulated Travel Mug, 350 ml, Slate Grey",
+    "category": "kitchen_dining",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Kelvaro"
+      },
+      {
+        "name": "model",
+        "value": "TM-350"
+      },
+      {
+        "name": "capacity",
+        "value": "350 ml"
+      },
+      {
+        "name": "colour",
+        "value": "slate grey"
+      },
+      {
+        "name": "material",
+        "value": "stainless steel"
+      }
+    ],
+    "condition": {
+      "grade": "like_new",
+      "notes": "Light scuff on the base."
+    },
+    "description": "Double-walled stainless steel travel mug with a leak-proof lid. Keeps drinks hot for about 6 hours. Used a handful of times.",
+    "tags": [
+      "travel mug",
+      "insulated",
+      "stainless steel",
+      "grey"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-01",
+    "photos": [],
+    "createdAt": "2026-09-02T10:15:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "KELVARO",
+        "Insulated Travel Mug",
+        "TM-500",
+        "500 ml"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2004350150093"
+        }
+      ]
+    },
+    "title": "Kelvaro TM-500 Insulated Travel Mug, 500 ml, Sage Green",
+    "category": "kitchen_dining",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Kelvaro"
+      },
+      {
+        "name": "model",
+        "value": "TM-500"
+      },
+      {
+        "name": "capacity",
+        "value": "500 ml"
+      },
+      {
+        "name": "colour",
+        "value": "sage green"
+      },
+      {
+        "name": "material",
+        "value": "stainless steel"
+      }
+    ],
+    "condition": {
+      "grade": "new",
+      "notes": ""
+    },
+    "description": "The larger 500 ml version of the Kelvaro insulated travel mug, boxed and unused.",
+    "tags": [
+      "travel mug",
+      "insulated",
+      "stainless steel",
+      "500 ml",
+      "sage green"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-02",
+    "photos": [],
+    "createdAt": "2026-09-03T09:40:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "SONAVIK",
+        "HX-20"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2118740202030"
+        }
+      ]
+    },
+    "title": "Sonavik HX-20 Wireless Earbuds, Graphite Black",
+    "category": "audio",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Sonavik"
+      },
+      {
+        "name": "model",
+        "value": "HX-20"
+      },
+      {
+        "name": "colour",
+        "value": "graphite black"
+      },
+      {
+        "name": "connectivity",
+        "value": "Bluetooth 5.3"
+      }
+    ],
+    "condition": {
+      "grade": "good",
+      "notes": "Charging case scratched; ear tips replaced with new ones."
+    },
+    "description": "True wireless earbuds with active noise cancelling and a USB-C charging case. Both earbuds charge and pair.",
+    "tags": [
+      "wireless earbuds",
+      "bluetooth",
+      "noise cancelling",
+      "black"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-03",
+    "photos": [],
+    "createdAt": "2026-09-05T16:02:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "FELDHAVEN",
+        "FS-26",
+        "26 cm"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2401120033073"
+        }
+      ]
+    },
+    "title": "Feldhaven FS-26 Cast Iron Skillet, 26 cm",
+    "category": "kitchen_dining",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Feldhaven"
+      },
+      {
+        "name": "model",
+        "value": "FS-26"
+      },
+      {
+        "name": "diameter",
+        "value": "26 cm"
+      },
+      {
+        "name": "material",
+        "value": "cast iron"
+      }
+    ],
+    "condition": {
+      "grade": "fair",
+      "notes": "Seasoning worn in the centre; light surface rust on the handle."
+    },
+    "description": "Pre-seasoned cast iron frying pan, suitable for all hobs and the oven. Needs re-seasoning.",
+    "tags": [
+      "cast iron",
+      "skillet",
+      "frying pan",
+      "cookware"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-04",
+    "photos": [],
+    "createdAt": "2026-09-06T11:30:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "CORVANE",
+        "RIDGELINE 2",
+        "UK 9"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2507781104029"
+        }
+      ]
+    },
+    "title": "Corvane Ridgeline 2 Trail Running Shoes, UK 9, Blue",
+    "category": "clothing_shoes",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Corvane"
+      },
+      {
+        "name": "model",
+        "value": "Ridgeline 2"
+      },
+      {
+        "name": "size",
+        "value": "UK 9"
+      },
+      {
+        "name": "colour",
+        "value": "blue"
+      },
+      {
+        "name": "material",
+        "value": "mesh upper, rubber sole"
+      }
+    ],
+    "condition": {
+      "grade": "good",
+      "notes": "Some wear on the outsoles; uppers clean."
+    },
+    "description": "Lightweight trail running shoes with a lugged rubber sole. Worn for one season.",
+    "tags": [
+      "running shoes",
+      "trail",
+      "mens",
+      "blue"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-05",
+    "photos": [],
+    "createdAt": "2026-09-08T08:45:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "PINEWICK",
+        "60 pieces",
+        "Ages 3+"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2603410009038"
+        }
+      ]
+    },
+    "title": "Pinewick PB-60 Wooden Building Blocks, 60 Pieces",
+    "category": "toys_games",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Pinewick"
+      },
+      {
+        "name": "model",
+        "value": "PB-60"
+      },
+      {
+        "name": "pieces",
+        "value": "60"
+      },
+      {
+        "name": "material",
+        "value": "beech wood"
+      },
+      {
+        "name": "age",
+        "value": "3+"
+      }
+    ],
+    "condition": {
+      "grade": "like_new",
+      "notes": "All 60 pieces present; storage bag included."
+    },
+    "description": "Painted beech wood building blocks in assorted shapes, for ages 3 and up.",
+    "tags": [
+      "wooden toys",
+      "building blocks",
+      "kids",
+      "educational"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-06",
+    "photos": [],
+    "createdAt": "2026-09-10T14:20:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "TESSMOOR",
+        "CB-28"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2700521208081"
+        }
+      ]
+    },
+    "title": "Tessmoor CB-28 Commuter Backpack, 28 L, Charcoal",
+    "category": "bags_luggage",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Tessmoor"
+      },
+      {
+        "name": "model",
+        "value": "CB-28"
+      },
+      {
+        "name": "capacity",
+        "value": "28 L"
+      },
+      {
+        "name": "colour",
+        "value": "charcoal"
+      },
+      {
+        "name": "material",
+        "value": "recycled polyester"
+      }
+    ],
+    "condition": {
+      "grade": "good",
+      "notes": "Small mark on the front pocket."
+    },
+    "description": "Water-resistant commuter backpack with a padded 15-inch laptop sleeve and side bottle pockets.",
+    "tags": [
+      "backpack",
+      "laptop bag",
+      "commuter",
+      "charcoal"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-07",
+    "photos": [],
+    "createdAt": "2026-09-12T17:05:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "VELMONT"
+      ],
+      "identifiers": []
+    },
+    "title": "Velmont VC-220 Mesh Office Chair, Black",
+    "category": "home_furniture",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Velmont"
+      },
+      {
+        "name": "model",
+        "value": "VC-220"
+      },
+      {
+        "name": "colour",
+        "value": "black"
+      },
+      {
+        "name": "material",
+        "value": "mesh back, fabric seat"
+      }
+    ],
+    "condition": {
+      "grade": "fair",
+      "notes": "Left armrest padding cracked; gas lift and tilt work."
+    },
+    "description": "Adjustable mesh office chair with lumbar support and 2D armrests. Collection only.",
+    "tags": [
+      "office chair",
+      "mesh",
+      "desk chair",
+      "ergonomic"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-08",
+    "photos": [],
+    "createdAt": "2026-09-14T12:00:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "VERDELLO",
+        "GN-8",
+        "8 spray patterns"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2806603001059"
+        }
+      ]
+    },
+    "title": "Verdello GN-8 Garden Hose Spray Nozzle, 8 Patterns",
+    "category": "garden_outdoor",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Verdello"
+      },
+      {
+        "name": "model",
+        "value": "GN-8"
+      },
+      {
+        "name": "material",
+        "value": "zinc alloy"
+      },
+      {
+        "name": "patterns",
+        "value": "8"
+      }
+    ],
+    "condition": {
+      "grade": "new",
+      "notes": ""
+    },
+    "description": "Metal hose spray gun with eight spray patterns and a lockable trigger. Unused, in the original card.",
+    "tags": [
+      "hose nozzle",
+      "garden",
+      "watering",
+      "spray gun"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-09",
+    "photos": [],
+    "createdAt": "2026-09-16T09:10:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "THE LIGHTHOUSE LEDGER",
+        "M. R. ELLERY"
+      ],
+      "identifiers": []
+    },
+    "title": "The Lighthouse Ledger by M. R. Ellery, Paperback",
+    "category": "books_media",
+    "attributes": [
+      {
+        "name": "author",
+        "value": "M. R. Ellery"
+      },
+      {
+        "name": "publisher",
+        "value": "Quayside Press"
+      },
+      {
+        "name": "format",
+        "value": "paperback"
+      }
+    ],
+    "condition": {
+      "grade": "good",
+      "notes": "Spine creased; pages clean."
+    },
+    "description": "A mystery novel set on a Northumberland island. Paperback, read once.",
+    "tags": [
+      "book",
+      "mystery",
+      "paperback",
+      "fiction"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-10",
+    "photos": [],
+    "createdAt": "2026-09-18T19:30:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "DREVTEK",
+        "CD-12",
+        "12V"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2901180077029"
+        }
+      ]
+    },
+    "title": "Drevtek CD-12 12V Cordless Drill Driver",
+    "category": "tools_diy",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Drevtek"
+      },
+      {
+        "name": "model",
+        "value": "CD-12"
+      },
+      {
+        "name": "voltage",
+        "value": "12 V"
+      },
+      {
+        "name": "battery",
+        "value": "1.5 Ah Li-ion"
+      }
+    ],
+    "condition": {
+      "grade": "good",
+      "notes": "Battery holds charge; chuck jaws slightly worn."
+    },
+    "description": "Compact 12 V drill driver with one battery and charger. Good for light DIY.",
+    "tags": [
+      "cordless drill",
+      "drill driver",
+      "12v",
+      "power tool"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-11",
+    "photos": [],
+    "createdAt": "2026-09-20T10:45:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  },
+  {
+    "visibleText": {
+      "lines": [
+        "SONAVIK",
+        "SP-5"
+      ],
+      "identifiers": [
+        {
+          "kind": "ean",
+          "value": "2419052100060"
+        }
+      ]
+    },
+    "title": "Sonavik SP-5 Portable Bluetooth Speaker, Teal",
+    "category": "audio",
+    "attributes": [
+      {
+        "name": "brand",
+        "value": "Sonavik"
+      },
+      {
+        "name": "model",
+        "value": "SP-5"
+      },
+      {
+        "name": "colour",
+        "value": "teal"
+      },
+      {
+        "name": "battery life",
+        "value": "12 hours"
+      }
+    ],
+    "condition": {
+      "grade": "like_new",
+      "notes": ""
+    },
+    "description": "Splash-resistant portable speaker with a 12-hour battery and a fabric grille.",
+    "tags": [
+      "bluetooth speaker",
+      "portable",
+      "waterproof",
+      "teal"
+    ],
+    "confidence": {
+      "title": 1,
+      "category": 1,
+      "attributes": 1,
+      "condition": 1,
+      "description": 1
+    },
+    "id": "seed-12",
+    "photos": [],
+    "createdAt": "2026-09-22T15:25:00.000Z",
+    "model": null,
+    "usage": null,
+    "costUsd": null,
+    "draft": null,
+    "corrected": []
+  }
+]

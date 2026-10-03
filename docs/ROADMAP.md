@@ -6,37 +6,43 @@ portfolio piece. Pick from stage 3; you do not need all of it.
 
 ## Stage 1: working feature (weeks 1-3)
 
-- [ ] All six TODOs done (`npm run progress` shows 6 of 6)
-- [ ] 20+ eval cases, results per model in the README
-- [ ] Deployed on Vercel with a demo GIF
+- [ ] All eight TODOs done (`npm run progress` shows 8 of 8)
+- [ ] 20 real products in `evals/cases`, results per model and a calibration line in the README
+- [ ] Rate limiting on the model routes and a spend limit in the Anthropic Console
+- [ ] Deployed on a host with a persistent disk, with a demo GIF
 
 ## Stage 2: production-ready (week 10)
 
 | Item | Why it matters |
 | --- | --- |
-| Rate limit `/api/search` and `/api/fit` per IP (for example Upstash Redis or Vercel Firewall) | A public demo with your API key is an open wallet |
-| Validate request bodies with Zod in both routes | Never trust the client, even your own |
-| Handle `stop_reason` values in the UI: `max_tokens`, `refusal`, plus 429 and 529 errors with retry | Users should see a clear message, not a half answer |
-| Prompt caching on the fit prompt (system prompt and CV are the same every call) | Cuts input cost on repeat calls; measure it with `usage.cache_read_input_tokens` |
-| A `/costs` page: calls, tokens and dollars per day from a log of `usage` | Turns "it's cheap" into a number you can quote |
-| Prompt-injection cases: a job description that says "ignore your instructions" | Job posts are third-party text; your fit answer must not obey them |
-| Opt-in eval job in CI (`ANTHROPIC_API_KEY` secret) | A prompt change that breaks extraction fails the PR |
+| Postgres for entries and corrections, object storage (S3, R2 or Vercel Blob) for photos, behind the existing `CatalogStore` interface | Runs on any host, survives redeploys, and lets you query the correction log |
+| Auth, plus per-user rate limits and a daily spend cap checked before each model call | A public demo with your API key is an open wallet |
+| Prompt caching on the system prompt and schema (`cache_control`), measured with `usage.cache_read_input_tokens` | The prefix is identical on every call; caching cuts its input cost and latency |
+| Timeouts and retries for 429 and 529 errors, with a clear message when they run out | Model calls fail in ways a normal API does not; users should never see a blank form |
+| Background jobs for drafts: return a job id, poll or stream the result | A six-photo draft with thinking can take a while; requests should not hang on it |
+| The Message Batches API for bulk imports | Half the price of live calls when nobody is waiting for the answer |
+| A log of cost, latency, retries and correction rate per request, with a dashboard | Turns "it is cheap and accurate" into numbers you can quote |
+| Strip EXIF on the server too, not only in the browser | Another client (or a curl) can still upload a photo with GPS data |
+| Injection cases: labels and packaging with instructions printed on them | Text in a photo is third-party input; it belongs in `visibleText`, never in your behaviour |
+| Opt-in eval job in CI (`ANTHROPIC_API_KEY` secret, `EVAL_MIN_SCORE`) | A prompt or schema change that breaks extraction fails the PR |
 
 ## Stage 3: scale (after week 12)
 
 | Item | What you learn |
 | --- | --- |
-| Real jobs from a jobs API or RSS feeds, stored in Postgres instead of `jobs.json` | Ingestion jobs and data freshness |
-| Accounts, each user with their own CV (Auth.js or Clerk) | Multi-tenant data and per-user cost |
-| Semantic job search with embeddings next to the structured filters (reuse rag-assistant) | Hybrid retrieval in a real product |
-| Model routing: a small model for filter extraction, a larger one for fit answers | Cost-quality trade-offs backed by your evals |
-| Nightly batch scoring of new jobs against each CV with the Message Batches API | Batch pricing is half the cost of live calls |
-| Tracing with OpenTelemetry or Langfuse; p95 latency and cost dashboards | Observability for LLM features |
-| A React Native client sharing the same API | Your mobile background, now with AI |
+| A React Native (Expo) camera app on the same API | Your mobile background, now with AI: offline queues, upload on bad networks, on-device resizing |
+| Visual duplicate detection with image embeddings or perceptual hashes next to the text rules | When text matching is not enough, and how to combine two signals |
+| Semantic catalogue search with embeddings (reuse what you build in rag-assistant) | Hybrid search over structured data |
+| Marketplace export: Shopify or eBay CSV and product feeds | Mapping your schema onto someone else's, and validating it before upload |
+| A bulk import queue for a shelf of products at a time | Throughput, backpressure and cost control |
+| An active-learning loop: route low-confidence drafts to review first and turn corrections into eval cases and few-shot examples | Using production data to improve the system on purpose |
+| Distillation to a cheaper model, measured on the eval set | When a smaller model with the right data beats a bigger one on cost |
+| Multi-tenant catalogues with per-tenant taxonomies | Data isolation, and prompts that change per customer |
 
 ## Before you share the repo
 
-- [ ] Real data: your own CV summary and real postings, no placeholder text
+- [ ] Real products in `evals/cases`, with no people, addresses or screens in the photos and
+      no EXIF location data
 - [ ] Live demo link, demo GIF and a filled-in "Evals and results" table
 - [ ] No secrets in the history (`git log -p | grep -i "sk-ant"` returns nothing)
 - [ ] `npm run progress` shows every TODO done; `tests/specs` is empty

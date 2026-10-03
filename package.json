@@ -15,8 +15,10 @@
     "test:core": "vitest run tests/core",
     "test:specs": "vitest run tests/specs",
     "test:watch": "vitest",
-    "eval": "tsx --env-file=.env.local evals/run.ts",
-    "todos": "grep -rn \"TODO(P1-\" src evals --include=*.ts --include=*.tsx | sort",
+    "eval": "tsx --env-file-if-exists=.env.local evals/run.ts",
+    "eval:import-corrections": "tsx evals/import-corrections.ts",
+    "reset": "tsx scripts/reset.ts",
+    "todos": "grep -rn \"TODO(P1-\" src evals --include=*.ts --include=*.tsx --include=*.md | sort",
     "progress": "node scripts/progress.mjs"
   },
   "dependencies": {

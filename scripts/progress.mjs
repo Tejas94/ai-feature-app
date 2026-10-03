@@ -5,25 +5,27 @@
  *   npm run progress                which TODOs are still open (reads the code)
  *   npm run progress -- --specs     also runs tests/specs and shows which pass
  *
- * A TODO counts as done when its TODO(P1-nn) marker is gone from src/ and evals/,
- * so delete the marker comment when you finish one. CI runs this with --specs on
- * every push and shows the table in the run's summary.
+ * A TODO counts as done when its TODO(P1-nn) marker is gone from src/ and evals/
+ * (including evals/cases/README.md), so delete the marker when you finish one. CI
+ * runs this with --specs on every push and shows the table in the run's summary.
  */
 import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import path from "node:path";
 
-const PROJECT = "Project 1: AI job search (weeks 1-3)";
+const PROJECT = "Project 1: Product Catalog Builder (weeks 1-3)";
 const SCAN_DIRS = ["src", "evals"];
 /** In the suggested order. `spec` is the test file that checks it, if any. */
 const TODOS = [
-  { id: "P1-01", week: 1, what: "Stream text from the raw SDK", check: "Explain my fit streams in the UI" },
-  { id: "P1-02", week: 2, what: "System prompt for query to filters", check: "npm run eval" },
-  { id: "P1-03", week: 2, what: "Structured output with Zod, validation, one retry", check: "npm run eval" },
-  { id: "P1-04", week: 3, what: "Prompt for \"explain my fit\"", check: "Read 5 answers in the UI" },
-  { id: "P1-05", week: 3, what: "Cost per call", spec: "cost.test.ts" },
-  { id: "P1-06", week: 3, what: "Grow the eval set to 20+ cases", check: "npm run eval" },
+  { id: "P1-01", week: 1, what: "Stream a first look at the photos (vision + streaming)", check: "\"First look\" streams in the UI" },
+  { id: "P1-02", week: 1, what: "Cost per call from usage", spec: "cost.test.ts" },
+  { id: "P1-03", week: 2, what: "Extraction system prompt", check: "npm run eval" },
+  { id: "P1-04", week: 2, what: "Structured extraction with Zod, validation, one retry", check: "npm run eval" },
+  { id: "P1-05", week: 2, what: "Duplicate detection", spec: "duplicates.test.ts" },
+  { id: "P1-06", week: 3, what: "Confidence scoring and review flags", spec: "confidence.test.ts" },
+  { id: "P1-07", week: 3, what: "Field-level accuracy scoring", spec: "score.test.ts" },
+  { id: "P1-08", week: 3, what: "20 real products photographed and labelled", check: "npm run eval" },
 ];
 
 function walk(dir) {
