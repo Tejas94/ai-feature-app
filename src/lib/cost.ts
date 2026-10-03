@@ -18,7 +18,7 @@ export interface TokenUsage {
 /**
  * TODO(P1-05) Week 3: return the cost of one call in USD.
  * - Throw a clear error for a model missing from PRICES (silent $0 hides bugs).
- * - tests/cost.test.ts describes the expected behaviour; make it pass.
+ * - tests/specs/cost.test.ts describes the expected behaviour; make it pass.
  * Stretch: prompt caching bills cache reads and writes differently. Add
  * cache_read_input_tokens / cache_creation_input_tokens once you turn caching on.
  */

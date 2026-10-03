@@ -19,9 +19,9 @@ const SCAN_DIRS = ["src", "evals"];
 /** In the suggested order. `spec` is the test file that checks it, if any. */
 const TODOS = [
   { id: "P1-01", week: 1, what: "Stream text from the raw SDK", check: "Explain my fit streams in the UI" },
-  { id: "P1-04", week: 3, what: "Prompt for \"explain my fit\"", check: "Read 5 answers in the UI" },
   { id: "P1-02", week: 2, what: "System prompt for query to filters", check: "npm run eval" },
   { id: "P1-03", week: 2, what: "Structured output with Zod, validation, one retry", check: "npm run eval" },
+  { id: "P1-04", week: 3, what: "Prompt for \"explain my fit\"", check: "Read 5 answers in the UI" },
   { id: "P1-05", week: 3, what: "Cost per call", spec: "cost.test.ts" },
   { id: "P1-06", week: 3, what: "Grow the eval set to 20+ cases", check: "npm run eval" },
 ];

@@ -56,7 +56,8 @@ postings (for example the ones you are applying to) when you polish it.
 | P1-05 | 3 | `src/lib/cost.ts` | Cost per call; shown in the UI and the eval summary |
 | P1-06 | 3 | `evals/cases.ts` | Grow the eval set from 5 to 20+ cases, including tricky ones |
 
-Suggested order: P1-01, then P1-04 (fit works end to end), then P1-02 and P1-03, P1-05, P1-06.
+Suggested order: P1-01 in week 1, P1-02 and P1-03 in week 2, then P1-04, P1-05 and P1-06 in
+week 3, as in the [learning path](docs/LEARNING_PATH.md).
 
 How the TODOs work:
 
