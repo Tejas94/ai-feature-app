@@ -1,8 +1,25 @@
+# dependencies and build output
 node_modules
 .next
+out
 .vercel
-.env
-.env*.local
 next-env.d.ts
 *.tsbuildinfo
+
+# secrets (.env.example is the committed template)
+.env*
+!.env.example
+
+# data written at runtime (the seed file stays committed)
+data/catalog.json
+data/catalog.json.*.tmp
+data/photos/
+data/corrections.jsonl
+
+# eval runs (evals/report.md is committed on purpose)
 evals/results-*.json
+
+# local noise
+.DS_Store
+*.log
+coverage
