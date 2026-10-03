@@ -1,0 +1,903 @@
+[
+  {
+    "id": "job-001",
+    "title": "React Native Developer",
+    "company": "Kitewell",
+    "location": "Edinburgh",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 60000,
+    "salaryMax": 70000,
+    "currency": "GBP",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "Android",
+      "iOS"
+    ],
+    "postedDaysAgo": 13,
+    "description": "Kitewell is hiring a React Native Developer to build our mobile app. You will work with React Native, TypeScript, Android in a small product team."
+  },
+  {
+    "id": "job-002",
+    "title": "Full Stack Engineer",
+    "company": "Northwind Labs",
+    "location": "Manchester",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 55000,
+    "salaryMax": 70000,
+    "currency": "GBP",
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "postedDaysAgo": 1,
+    "description": "Northwind Labs is hiring a Full Stack Engineer to build search and recommendations. You will work with React, Node.js, TypeScript in a small product team."
+  },
+  {
+    "id": "job-003",
+    "title": "AI Engineer",
+    "company": "Orbital Pay",
+    "location": "Edinburgh",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 70000,
+    "salaryMax": 80000,
+    "currency": "GBP",
+    "skills": [
+      "LLMs",
+      "Evals",
+      "TypeScript",
+      "Python",
+      "Vector databases"
+    ],
+    "postedDaysAgo": 17,
+    "description": "Orbital Pay is hiring a AI Engineer to build a new data platform. You will work with LLMs, Evals, TypeScript in a small product team."
+  },
+  {
+    "id": "job-004",
+    "title": "Full Stack Engineer",
+    "company": "Marlow & Finch",
+    "location": "London",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 110000,
+    "currency": "GBP",
+    "skills": [
+      "AWS",
+      "PostgreSQL",
+      "Node.js",
+      "TypeScript",
+      "React"
+    ],
+    "postedDaysAgo": 7,
+    "description": "Marlow & Finch is hiring a Full Stack Engineer to build an AI assistant for support teams. You will work with AWS, PostgreSQL, Node.js in a small product team."
+  },
+  {
+    "id": "job-005",
+    "title": "Senior Software Engineer, Data",
+    "company": "Northwind Labs",
+    "location": "Manchester",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 110000,
+    "salaryMax": 120000,
+    "currency": "GBP",
+    "skills": [
+      "Airflow",
+      "dbt",
+      "SQL",
+      "Python"
+    ],
+    "postedDaysAgo": 3,
+    "description": "Northwind Labs is hiring a Senior Software Engineer, Data to build search and recommendations. You will work with Airflow, dbt, SQL in a small product team."
+  },
+  {
+    "id": "job-006",
+    "title": "Backend Engineer (Node.js)",
+    "company": "Kitewell",
+    "location": "Amsterdam",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 110000,
+    "currency": "EUR",
+    "skills": [
+      "Node.js",
+      "Azure",
+      "PostgreSQL",
+      "TypeScript"
+    ],
+    "postedDaysAgo": 19,
+    "description": "Kitewell is hiring a Backend Engineer (Node.js) to build our mobile app. You will work with Node.js, Azure, PostgreSQL in a small product team."
+  },
+  {
+    "id": "job-007",
+    "title": "Founding Engineer",
+    "company": "Helix Logistics",
+    "location": "Manchester",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 115000,
+    "currency": "GBP",
+    "skills": [
+      "React",
+      "AWS",
+      "TypeScript",
+      "Node.js"
+    ],
+    "postedDaysAgo": 9,
+    "description": "Helix Logistics is hiring a Founding Engineer to build a new data platform. You will work with React, AWS, TypeScript in a small product team."
+  },
+  {
+    "id": "job-008",
+    "title": "Backend Engineer (Node.js)",
+    "company": "Cobalt Learning",
+    "location": "Amsterdam",
+    "remote": true,
+    "seniority": "mid",
+    "salaryMin": 90000,
+    "salaryMax": 110000,
+    "currency": "EUR",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "Azure",
+      "Kubernetes"
+    ],
+    "postedDaysAgo": 4,
+    "description": "Cobalt Learning is hiring a Backend Engineer (Node.js) to build a new data platform. You will work with TypeScript, Node.js, Azure in a small product team."
+  },
+  {
+    "id": "job-009",
+    "title": "Applied AI Engineer",
+    "company": "Quanta Retail",
+    "location": "Edinburgh",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 100000,
+    "salaryMax": 115000,
+    "currency": "GBP",
+    "skills": [
+      "TypeScript",
+      "RAG",
+      "Evals"
+    ],
+    "postedDaysAgo": 26,
+    "description": "Quanta Retail is hiring a Applied AI Engineer to build our mobile app. You will work with TypeScript, RAG, Evals in a small product team."
+  },
+  {
+    "id": "job-010",
+    "title": "LLM Engineer",
+    "company": "Orbital Pay",
+    "location": "Edinburgh",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 120000,
+    "salaryMax": 135000,
+    "currency": "GBP",
+    "skills": [
+      "TypeScript",
+      "Vector databases",
+      "Python",
+      "RAG"
+    ],
+    "postedDaysAgo": 21,
+    "description": "Orbital Pay is hiring a LLM Engineer to build an AI assistant for support teams. You will work with TypeScript, Vector databases, Python in a small product team."
+  },
+  {
+    "id": "job-011",
+    "title": "Senior Frontend Engineer",
+    "company": "Helix Logistics",
+    "location": "Remote (UK)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 110000,
+    "currency": "GBP",
+    "skills": [
+      "React",
+      "CSS",
+      "TypeScript",
+      "Next.js"
+    ],
+    "postedDaysAgo": 30,
+    "description": "Helix Logistics is hiring a Senior Frontend Engineer to build an AI assistant for support teams. You will work with React, CSS, TypeScript in a small product team."
+  },
+  {
+    "id": "job-012",
+    "title": "Senior Software Engineer, Data",
+    "company": "Tessellate AI",
+    "location": "London",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 125000,
+    "salaryMax": 135000,
+    "currency": "GBP",
+    "skills": [
+      "dbt",
+      "SQL",
+      "Airflow",
+      "Python"
+    ],
+    "postedDaysAgo": 15,
+    "description": "Tessellate AI is hiring a Senior Software Engineer, Data to build a new data platform. You will work with dbt, SQL, Airflow in a small product team."
+  },
+  {
+    "id": "job-013",
+    "title": "Backend Engineer (Node.js)",
+    "company": "Lumen Health",
+    "location": "Remote (EU)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 60000,
+    "salaryMax": 70000,
+    "currency": "EUR",
+    "skills": [
+      "Kubernetes",
+      "TypeScript",
+      "Node.js"
+    ],
+    "postedDaysAgo": 3,
+    "description": "Lumen Health is hiring a Backend Engineer (Node.js) to build customer-facing web apps. You will work with Kubernetes, TypeScript, Node.js in a small product team."
+  },
+  {
+    "id": "job-014",
+    "title": "Founding Engineer",
+    "company": "Kitewell",
+    "location": "Manchester",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 115000,
+    "salaryMax": 140000,
+    "currency": "GBP",
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "postedDaysAgo": 4,
+    "description": "Kitewell is hiring a Founding Engineer to build a new data platform. You will work with React, Node.js, TypeScript in a small product team."
+  },
+  {
+    "id": "job-015",
+    "title": "Senior Full Stack Engineer (AI)",
+    "company": "Fernleaf",
+    "location": "Amsterdam",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 85000,
+    "salaryMax": 95000,
+    "currency": "EUR",
+    "skills": [
+      "RAG",
+      "Vector databases",
+      "Evals",
+      "TypeScript"
+    ],
+    "postedDaysAgo": 4,
+    "description": "Fernleaf is hiring a Senior Full Stack Engineer (AI) to build customer-facing web apps. You will work with RAG, Vector databases, Evals in a small product team."
+  },
+  {
+    "id": "job-016",
+    "title": "Senior Software Engineer, Data",
+    "company": "Fernleaf",
+    "location": "Berlin",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 135000,
+    "salaryMax": 150000,
+    "currency": "EUR",
+    "skills": [
+      "Python",
+      "dbt",
+      "SQL"
+    ],
+    "postedDaysAgo": 22,
+    "description": "Fernleaf is hiring a Senior Software Engineer, Data to build search and recommendations. You will work with Python, dbt, SQL in a small product team."
+  },
+  {
+    "id": "job-017",
+    "title": "Senior Frontend Engineer",
+    "company": "Tessellate AI",
+    "location": "Berlin",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 75000,
+    "salaryMax": 95000,
+    "currency": "EUR",
+    "skills": [
+      "Next.js",
+      "CSS",
+      "TypeScript",
+      "React"
+    ],
+    "postedDaysAgo": 24,
+    "description": "Tessellate AI is hiring a Senior Frontend Engineer to build an AI assistant for support teams. You will work with Next.js, CSS, TypeScript in a small product team."
+  },
+  {
+    "id": "job-018",
+    "title": "LLM Engineer",
+    "company": "Tessellate AI",
+    "location": "Amsterdam",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 110000,
+    "salaryMax": 135000,
+    "currency": "EUR",
+    "skills": [
+      "TypeScript",
+      "RAG",
+      "Vector databases"
+    ],
+    "postedDaysAgo": 11,
+    "description": "Tessellate AI is hiring a LLM Engineer to build a new data platform. You will work with TypeScript, RAG, Vector databases in a small product team."
+  },
+  {
+    "id": "job-019",
+    "title": "Senior Frontend Engineer",
+    "company": "Lumen Health",
+    "location": "Berlin",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 85000,
+    "salaryMax": 95000,
+    "currency": "EUR",
+    "skills": [
+      "Next.js",
+      "TypeScript",
+      "CSS",
+      "React"
+    ],
+    "postedDaysAgo": 7,
+    "description": "Lumen Health is hiring a Senior Frontend Engineer to build customer-facing web apps. You will work with Next.js, TypeScript, CSS in a small product team."
+  },
+  {
+    "id": "job-020",
+    "title": "Applied AI Engineer",
+    "company": "Helix Logistics",
+    "location": "Remote (EU)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 110000,
+    "currency": "EUR",
+    "skills": [
+      "RAG",
+      "Evals",
+      "Python"
+    ],
+    "postedDaysAgo": 25,
+    "description": "Helix Logistics is hiring a Applied AI Engineer to build a new data platform. You will work with RAG, Evals, Python in a small product team."
+  },
+  {
+    "id": "job-021",
+    "title": "Full Stack Engineer",
+    "company": "Cobalt Learning",
+    "location": "Manchester",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 120000,
+    "salaryMax": 130000,
+    "currency": "GBP",
+    "skills": [
+      "PostgreSQL",
+      "Node.js",
+      "AWS"
+    ],
+    "postedDaysAgo": 25,
+    "description": "Cobalt Learning is hiring a Full Stack Engineer to build a new data platform. You will work with PostgreSQL, Node.js, AWS in a small product team."
+  },
+  {
+    "id": "job-022",
+    "title": "Backend Engineer (Node.js)",
+    "company": "Helix Logistics",
+    "location": "Edinburgh",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 60000,
+    "salaryMax": 75000,
+    "currency": "GBP",
+    "skills": [
+      "TypeScript",
+      "Azure",
+      "Node.js",
+      "PostgreSQL",
+      "Kubernetes"
+    ],
+    "postedDaysAgo": 19,
+    "description": "Helix Logistics is hiring a Backend Engineer (Node.js) to build search and recommendations. You will work with TypeScript, Azure, Node.js in a small product team."
+  },
+  {
+    "id": "job-023",
+    "title": "Staff Engineer, Platform",
+    "company": "Cobalt Learning",
+    "location": "Amsterdam",
+    "remote": true,
+    "seniority": "staff",
+    "salaryMin": 110000,
+    "salaryMax": 120000,
+    "currency": "EUR",
+    "skills": [
+      "Node.js",
+      "Azure",
+      "PostgreSQL"
+    ],
+    "postedDaysAgo": 16,
+    "description": "Cobalt Learning is hiring a Staff Engineer, Platform to build a new data platform. You will work with Node.js, Azure, PostgreSQL in a small product team."
+  },
+  {
+    "id": "job-024",
+    "title": "AI Engineer",
+    "company": "Quanta Retail",
+    "location": "Remote (EU)",
+    "remote": true,
+    "seniority": "mid",
+    "salaryMin": 80000,
+    "salaryMax": 100000,
+    "currency": "EUR",
+    "skills": [
+      "LLMs",
+      "TypeScript",
+      "Vector databases"
+    ],
+    "postedDaysAgo": 8,
+    "description": "Quanta Retail is hiring a AI Engineer to build search and recommendations. You will work with LLMs, TypeScript, Vector databases in a small product team."
+  },
+  {
+    "id": "job-025",
+    "title": "Backend Engineer (Node.js)",
+    "company": "Kitewell",
+    "location": "London",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 80000,
+    "salaryMax": 90000,
+    "currency": "GBP",
+    "skills": [
+      "Azure",
+      "Kubernetes",
+      "PostgreSQL",
+      "Node.js"
+    ],
+    "postedDaysAgo": 27,
+    "description": "Kitewell is hiring a Backend Engineer (Node.js) to build our mobile app. You will work with Azure, Kubernetes, PostgreSQL in a small product team."
+  },
+  {
+    "id": "job-026",
+    "title": "AI Engineer",
+    "company": "Marlow & Finch",
+    "location": "London",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 75000,
+    "salaryMax": 95000,
+    "currency": "GBP",
+    "skills": [
+      "TypeScript",
+      "RAG",
+      "Python"
+    ],
+    "postedDaysAgo": 21,
+    "description": "Marlow & Finch is hiring a AI Engineer to build search and recommendations. You will work with TypeScript, RAG, Python in a small product team."
+  },
+  {
+    "id": "job-027",
+    "title": "LLM Engineer",
+    "company": "Tessellate AI",
+    "location": "Bristol",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 70000,
+    "salaryMax": 95000,
+    "currency": "GBP",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Evals",
+      "RAG",
+      "Vector databases"
+    ],
+    "postedDaysAgo": 17,
+    "description": "Tessellate AI is hiring a LLM Engineer to build customer-facing web apps. You will work with Python, TypeScript, Evals in a small product team."
+  },
+  {
+    "id": "job-028",
+    "title": "Full Stack Engineer",
+    "company": "Helix Logistics",
+    "location": "Amsterdam",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 95000,
+    "salaryMax": 110000,
+    "currency": "EUR",
+    "skills": [
+      "AWS",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "React"
+    ],
+    "postedDaysAgo": 22,
+    "description": "Helix Logistics is hiring a Full Stack Engineer to build search and recommendations. You will work with AWS, Node.js, TypeScript in a small product team."
+  },
+  {
+    "id": "job-029",
+    "title": "Senior Full Stack Engineer (AI)",
+    "company": "Tessellate AI",
+    "location": "Remote (EU)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 115000,
+    "salaryMax": 140000,
+    "currency": "EUR",
+    "skills": [
+      "RAG",
+      "Python",
+      "Vector databases"
+    ],
+    "postedDaysAgo": 10,
+    "description": "Tessellate AI is hiring a Senior Full Stack Engineer (AI) to build customer-facing web apps. You will work with RAG, Python, Vector databases in a small product team."
+  },
+  {
+    "id": "job-030",
+    "title": "Mobile Engineer (iOS/Android)",
+    "company": "Northwind Labs",
+    "location": "Edinburgh",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 110000,
+    "salaryMax": 125000,
+    "currency": "GBP",
+    "skills": [
+      "React Native",
+      "Android",
+      "TypeScript",
+      "iOS"
+    ],
+    "postedDaysAgo": 30,
+    "description": "Northwind Labs is hiring a Mobile Engineer (iOS/Android) to build our mobile app. You will work with React Native, Android, TypeScript in a small product team."
+  },
+  {
+    "id": "job-031",
+    "title": "Applied AI Engineer",
+    "company": "Signal Forge",
+    "location": "Manchester",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 100000,
+    "salaryMax": 125000,
+    "currency": "GBP",
+    "skills": [
+      "Vector databases",
+      "TypeScript",
+      "Evals"
+    ],
+    "postedDaysAgo": 10,
+    "description": "Signal Forge is hiring a Applied AI Engineer to build our mobile app. You will work with Vector databases, TypeScript, Evals in a small product team."
+  },
+  {
+    "id": "job-032",
+    "title": "Applied AI Engineer",
+    "company": "Fernleaf",
+    "location": "Amsterdam",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 100000,
+    "currency": "EUR",
+    "skills": [
+      "LLMs",
+      "Evals",
+      "RAG"
+    ],
+    "postedDaysAgo": 12,
+    "description": "Fernleaf is hiring a Applied AI Engineer to build internal tools for operations. You will work with LLMs, Evals, RAG in a small product team."
+  },
+  {
+    "id": "job-033",
+    "title": "LLM Engineer",
+    "company": "Marlow & Finch",
+    "location": "Berlin",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 70000,
+    "salaryMax": 90000,
+    "currency": "EUR",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "Evals"
+    ],
+    "postedDaysAgo": 1,
+    "description": "Marlow & Finch is hiring a LLM Engineer to build an AI assistant for support teams. You will work with TypeScript, Python, Evals in a small product team."
+  },
+  {
+    "id": "job-034",
+    "title": "Senior Full Stack Engineer (AI)",
+    "company": "Kitewell",
+    "location": "Edinburgh",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 135000,
+    "salaryMax": 155000,
+    "currency": "GBP",
+    "skills": [
+      "RAG",
+      "TypeScript",
+      "Vector databases",
+      "LLMs"
+    ],
+    "postedDaysAgo": 2,
+    "description": "Kitewell is hiring a Senior Full Stack Engineer (AI) to build internal tools for operations. You will work with RAG, TypeScript, Vector databases in a small product team."
+  },
+  {
+    "id": "job-035",
+    "title": "Senior Frontend Engineer",
+    "company": "Signal Forge",
+    "location": "Remote (UK)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 100000,
+    "salaryMax": 120000,
+    "currency": "GBP",
+    "skills": [
+      "Next.js",
+      "React",
+      "CSS"
+    ],
+    "postedDaysAgo": 2,
+    "description": "Signal Forge is hiring a Senior Frontend Engineer to build search and recommendations. You will work with Next.js, React, CSS in a small product team."
+  },
+  {
+    "id": "job-036",
+    "title": "Applied AI Engineer",
+    "company": "Brightpath",
+    "location": "Berlin",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 100000,
+    "salaryMax": 115000,
+    "currency": "EUR",
+    "skills": [
+      "LLMs",
+      "Evals",
+      "RAG"
+    ],
+    "postedDaysAgo": 1,
+    "description": "Brightpath is hiring a Applied AI Engineer to build search and recommendations. You will work with LLMs, Evals, RAG in a small product team."
+  },
+  {
+    "id": "job-037",
+    "title": "Senior Software Engineer, Data",
+    "company": "Northwind Labs",
+    "location": "Manchester",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 110000,
+    "currency": "GBP",
+    "skills": [
+      "SQL",
+      "Python",
+      "dbt"
+    ],
+    "postedDaysAgo": 16,
+    "description": "Northwind Labs is hiring a Senior Software Engineer, Data to build an AI assistant for support teams. You will work with SQL, Python, dbt in a small product team."
+  },
+  {
+    "id": "job-038",
+    "title": "Senior Full Stack Engineer (AI)",
+    "company": "Helix Logistics",
+    "location": "Remote (UK)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 100000,
+    "salaryMax": 110000,
+    "currency": "GBP",
+    "skills": [
+      "Python",
+      "LLMs",
+      "Vector databases",
+      "RAG"
+    ],
+    "postedDaysAgo": 23,
+    "description": "Helix Logistics is hiring a Senior Full Stack Engineer (AI) to build search and recommendations. You will work with Python, LLMs, Vector databases in a small product team."
+  },
+  {
+    "id": "job-039",
+    "title": "LLM Engineer",
+    "company": "Northwind Labs",
+    "location": "Bristol",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 100000,
+    "salaryMax": 120000,
+    "currency": "GBP",
+    "skills": [
+      "Vector databases",
+      "RAG",
+      "Evals"
+    ],
+    "postedDaysAgo": 22,
+    "description": "Northwind Labs is hiring a LLM Engineer to build an AI assistant for support teams. You will work with Vector databases, RAG, Evals in a small product team."
+  },
+  {
+    "id": "job-040",
+    "title": "Applied AI Engineer",
+    "company": "Fernleaf",
+    "location": "Remote (EU)",
+    "remote": true,
+    "seniority": "mid",
+    "salaryMin": 130000,
+    "salaryMax": 140000,
+    "currency": "EUR",
+    "skills": [
+      "Vector databases",
+      "TypeScript",
+      "RAG",
+      "Evals",
+      "Python"
+    ],
+    "postedDaysAgo": 2,
+    "description": "Fernleaf is hiring a Applied AI Engineer to build a new data platform. You will work with Vector databases, TypeScript, RAG in a small product team."
+  },
+  {
+    "id": "job-041",
+    "title": "Senior Software Engineer, Data",
+    "company": "Orbital Pay",
+    "location": "Edinburgh",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 75000,
+    "salaryMax": 95000,
+    "currency": "GBP",
+    "skills": [
+      "dbt",
+      "Airflow",
+      "SQL",
+      "Python"
+    ],
+    "postedDaysAgo": 1,
+    "description": "Orbital Pay is hiring a Senior Software Engineer, Data to build our mobile app. You will work with dbt, Airflow, SQL in a small product team."
+  },
+  {
+    "id": "job-042",
+    "title": "AI Engineer",
+    "company": "Kitewell",
+    "location": "Berlin",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 85000,
+    "salaryMax": 105000,
+    "currency": "EUR",
+    "skills": [
+      "LLMs",
+      "Evals",
+      "Vector databases",
+      "Python"
+    ],
+    "postedDaysAgo": 6,
+    "description": "Kitewell is hiring a AI Engineer to build internal tools for operations. You will work with LLMs, Evals, Vector databases in a small product team."
+  },
+  {
+    "id": "job-043",
+    "title": "AI Engineer",
+    "company": "Lumen Health",
+    "location": "Amsterdam",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 100000,
+    "salaryMax": 110000,
+    "currency": "EUR",
+    "skills": [
+      "Evals",
+      "TypeScript",
+      "Vector databases",
+      "LLMs"
+    ],
+    "postedDaysAgo": 8,
+    "description": "Lumen Health is hiring a AI Engineer to build customer-facing web apps. You will work with Evals, TypeScript, Vector databases in a small product team."
+  },
+  {
+    "id": "job-044",
+    "title": "AI Engineer",
+    "company": "Quanta Retail",
+    "location": "London",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 85000,
+    "salaryMax": 110000,
+    "currency": "GBP",
+    "skills": [
+      "Vector databases",
+      "TypeScript",
+      "Python",
+      "LLMs"
+    ],
+    "postedDaysAgo": 24,
+    "description": "Quanta Retail is hiring a AI Engineer to build internal tools for operations. You will work with Vector databases, TypeScript, Python in a small product team."
+  },
+  {
+    "id": "job-045",
+    "title": "Senior Software Engineer, Data",
+    "company": "Helix Logistics",
+    "location": "Remote (UK)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 90000,
+    "salaryMax": 100000,
+    "currency": "GBP",
+    "skills": [
+      "SQL",
+      "Python",
+      "dbt",
+      "Airflow"
+    ],
+    "postedDaysAgo": 26,
+    "description": "Helix Logistics is hiring a Senior Software Engineer, Data to build a new data platform. You will work with SQL, Python, dbt in a small product team."
+  },
+  {
+    "id": "job-046",
+    "title": "Founding Engineer",
+    "company": "Signal Forge",
+    "location": "Remote (EU)",
+    "remote": true,
+    "seniority": "senior",
+    "salaryMin": 75000,
+    "salaryMax": 95000,
+    "currency": "EUR",
+    "skills": [
+      "React",
+      "Node.js",
+      "TypeScript"
+    ],
+    "postedDaysAgo": 30,
+    "description": "Signal Forge is hiring a Founding Engineer to build customer-facing web apps. You will work with React, Node.js, TypeScript in a small product team."
+  },
+  {
+    "id": "job-047",
+    "title": "Backend Engineer (Node.js)",
+    "company": "Helix Logistics",
+    "location": "London",
+    "remote": false,
+    "seniority": "mid",
+    "salaryMin": 110000,
+    "salaryMax": 120000,
+    "currency": "GBP",
+    "skills": [
+      "TypeScript",
+      "Kubernetes",
+      "Azure",
+      "Node.js",
+      "PostgreSQL"
+    ],
+    "postedDaysAgo": 21,
+    "description": "Helix Logistics is hiring a Backend Engineer (Node.js) to build search and recommendations. You will work with TypeScript, Kubernetes, Azure in a small product team."
+  },
+  {
+    "id": "job-048",
+    "title": "Full Stack Engineer",
+    "company": "Signal Forge",
+    "location": "Bristol",
+    "remote": false,
+    "seniority": "senior",
+    "salaryMin": 60000,
+    "salaryMax": 85000,
+    "currency": "GBP",
+    "skills": [
+      "Node.js",
+      "AWS",
+      "React",
+      "PostgreSQL"
+    ],
+    "postedDaysAgo": 2,
+    "description": "Signal Forge is hiring a Full Stack Engineer to build our mobile app. You will work with Node.js, AWS, React in a small product team."
+  }
+]
